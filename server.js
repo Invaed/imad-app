@@ -29,7 +29,7 @@ var articles={
                     </p>`},
     'article-three' : {
         title : 'Article Three | Ankit',
-        heading : 'Article Two',
+        heading : 'Article Three',
         date : 'Mar 30, 2018',
         content : `<p>
                         Here is some text for my article three paragraph. 
