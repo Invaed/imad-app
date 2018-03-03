@@ -10,7 +10,7 @@ var articleOne = {
     heading : 'Article One',
     date : 'Mar 3, 2018',
     content : `<p>
-                    This is some text for my article one paragraph. This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.
+                    Here is some text for my article one paragraph. This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.
                 </p>
                 <p>
                     This is some text for my article one paragraph. This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.
