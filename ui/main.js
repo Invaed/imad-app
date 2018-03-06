@@ -22,12 +22,12 @@ var submit = document.getElementById('submit_btn');
 submit.onclick = function(){
     
     var request = new XMLHttpRequest();
-    var names = request.responseText;
-    names = JSON.parse(names);
     
     request.onreadystatechange = function(){
         if(request.readyState === XMLHttpRequest.DONE){
             if(request.status===200){
+                var names = request.responseText;
+                names = JSON.parse(names);
                 var lists = '';
                 for(var i=0; i<names.length; i++){
                 lists += "<li>"+names[i]+"</li>";
