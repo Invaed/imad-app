@@ -19,9 +19,10 @@ button.onclick = function(){
 };
 
 var nameInput = document.getElementById('name');
-var name = nameInput.value;
+
 var submit = document.getElementById('submit_btn');
 submit.onclick = function(){
+    var name = nameInput.value;
     var names = request.responseText;
     names = JSON.parse(names);
     var request = new XMLHttpRequest();
