@@ -20,9 +20,10 @@ button.onclick = function(){
 
 var submit = document.getElementById('submit_btn');
 submit.onclick = function(){
+    
+    var request = new XMLHttpRequest();
     var names = request.responseText;
     names = JSON.parse(names);
-    var request = new XMLHttpRequest();
     
     request.onreadystatechange = function(){
         if(request.readyState === XMLHttpRequest.DONE){
