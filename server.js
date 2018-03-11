@@ -4,8 +4,8 @@ var path = require('path');
 var Pool = require('pg').Pool;
 
 var config={
-    user:'ankit.email247',
-    database:'ankit.email247',
+    user:'ankitemail247',
+    database:'ankitemail247',
     host:'db.imad.hasura-app.io',
     port:'5432',
     password:process.env.DB_PASSWORD
