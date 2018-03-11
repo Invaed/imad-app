@@ -14,37 +14,6 @@ var config = {
 var app = express();
 app.use(morgan('combined'));
 
-var articles={
-    'article-one' : {
-    title : 'Article One | Ankit',
-    heading : 'Article One',
-    date : 'Mar 3, 2018',
-    content : `<p>
-                    Here is some text for my article one paragraph. This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.
-                </p>
-                <p>
-                    This is some text for my article one paragraph. This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.
-                </p>
-                <p>
-                    This is some text for my article one paragraph. This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.This is some text for my article one paragraph.
-                </p>`
-},
-    'article-two' : {
-        title : 'Article Two | Ankit',
-        heading : 'Article Two',
-        date : 'Mar 13, 2018',
-        content : `<p>
-                        Here is some text for my article two paragraph. 
-                    </p>`},
-    'article-three' : {
-        title : 'Article Three | Ankit',
-        heading : 'Article Three',
-        date : 'Mar 30, 2018',
-        content : `<p>
-                        Here is some text for my article three paragraph. 
-                    </p>`}
-};
-
 function createTemplate(data){
     var title = data.title;
     var heading = data.heading;
