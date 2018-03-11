@@ -114,7 +114,7 @@ app.get('/articles/:articleName',function(req, res){
     //var articleName = req.params.articleName;
     //res.send(createTemplate(articles[articleName]));
     
-    pool.query("SELCT * FROM article WHERE title =" + req.params.articleName, function(err, result){
+    pool.query("SELCT * FROM article WHERE title ='" + req.params.articleName+"'", function(err, result){
         if(err){
             return status(500).send(err.toString());
         } else{
